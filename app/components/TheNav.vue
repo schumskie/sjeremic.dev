@@ -1,11 +1,16 @@
 <script setup lang="ts">
-const links = [
-  { label: 'About', to: '/about' },
-  { label: 'Experience', to: '/experience' },
-  { label: 'Projects', to: '/projects' },
-  { label: 'Blog', to: '/blog' },
-  { label: 'Contact', to: '/contact' },
-]
+const { t, locale, locales, setLocale } = useI18n()
+const localePath = useLocalePath()
+
+const links = computed(() => [
+  { label: t('nav.about'), to: localePath('/about') },
+  { label: t('nav.experience'), to: localePath('/experience') },
+  { label: t('nav.projects'), to: localePath('/projects') },
+  { label: t('nav.blog'), to: localePath('/blog') },
+  { label: t('nav.contact'), to: localePath('/contact') },
+])
+
+const otherLocale = computed(() => locales.value.find(l => l.code !== locale.value))
 
 const menuOpen = ref(false)
 const route = useRoute()
@@ -15,7 +20,7 @@ watch(() => route.path, () => { menuOpen.value = false })
 <template>
   <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
     <nav class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-      <NuxtLink to="/" class="font-semibold text-slate-900 tracking-tight hover:text-blue-600 transition-colors">
+      <NuxtLink :to="localePath('/')" class="font-semibold text-slate-900 tracking-tight hover:text-blue-600 transition-colors">
         Stefan Jeremic
       </NuxtLink>
 
@@ -29,6 +34,15 @@ watch(() => route.path, () => { menuOpen.value = false })
           >
             {{ link.label }}
           </NuxtLink>
+        </li>
+        <!-- Language switcher -->
+        <li>
+          <button
+            class="text-xs font-medium text-slate-400 hover:text-slate-700 border border-slate-200 rounded px-2 py-1 transition-colors"
+            @click="setLocale(otherLocale!.code as 'en' | 'sr')"
+          >
+            {{ otherLocale?.code.toUpperCase() }}
+          </button>
         </li>
       </ul>
 
@@ -53,6 +67,14 @@ watch(() => route.path, () => { menuOpen.value = false })
           >
             {{ link.label }}
           </NuxtLink>
+        </li>
+        <li class="pt-2 border-t border-slate-100">
+          <button
+            class="text-xs font-medium text-slate-400 hover:text-slate-700 border border-slate-200 rounded px-2 py-1 transition-colors"
+            @click="setLocale(otherLocale!.code as 'en' | 'sr')"
+          >
+            {{ otherLocale?.name }}
+          </button>
         </li>
       </ul>
     </div>

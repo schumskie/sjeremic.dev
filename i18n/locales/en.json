@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "common": {
+    "downloadCv": "Download CV",
+    "getInTouch": "Get in touch",
+    "viewExperience": "View experience",
+    "readMore": "Read more about me",
+    "backToBlog": "Back to blog",
+    "viewAllPosts": "View all posts",
+    "photoPlaceholder": "Photo placeholder",
+    "photoRecommended": "Recommended: 512×512px, square, .webp"
+  },
+  "footer": {
+    "rights": "Stefan Jeremic"
+  },
+  "home": {
+    "badge": "Available for new opportunities",
+    "subtitle": "Senior Software Engineer with 10+ years of experience building scalable web platforms. Specializing in Python backends and Vue.js/Nuxt.js frontends — focused on product companies where engineering directly drives business outcomes.",
+    "stats": {
+      "years": "Years of experience",
+      "hackathons": "Hackathon awards",
+      "companies": "Companies",
+      "stack": "Stack coverage"
+    },
+    "about": {
+      "title": "About me",
+      "p1": "I'm a full-stack engineer who leans heavily on the backend side. I write production Python daily — Flask, FastAPI, SQLAlchemy — and I've shipped significant frontend work in Vue.js and Nuxt.js across e-commerce, betting, and lead-generation platforms.",
+      "p2": "I care about code quality, automated testing, and practical problem-solving. I use AI-assisted tools like Cursor and GitHub Copilot not as shortcuts but as force multipliers for delivery without compromising quality.",
+      "cta": "Read more about me"
+    },
+    "skills": {
+      "title": "Core technologies"
+    },
+    "cta": {
+      "title": "Looking for a senior engineer?",
+      "subtitle": "I'm open to senior individual contributor and lead roles at product companies. Let's talk about what you're building.",
+      "button": "Start a conversation"
+    }
+  },
+  "about": {
+    "badge": "About",
+    "title": "Who I am and how I work",
+    "subtitle": "Full-stack engineer with a backend focus, based in Belgrade, Serbia. I've spent over a decade building and maintaining production systems across diverse domains.",
+    "background": {
+      "title": "Background",
+      "p1": "I started my career in a fast-moving agency environment where shipping quickly and adapting to different stacks was the default. That foundation taught me to ramp up fast on unfamiliar codebases — a skill I've leaned on throughout my career.",
+      "p2": "Over the years I've worked across e-commerce, sports betting, and lead-generation platforms. My longest engagement was as a Senior Backend Developer at BlueGrid, where I worked embedded in the Recharge.com engineering team for five years — maintaining a complex core codebase, building internal AI tooling, and mentoring junior developers.",
+      "p3": "Today I specialize primarily in Python backends (Flask, FastAPI, SQLAlchemy) with meaningful frontend experience in Vue.js and Nuxt.js. I've also done maintenance and debugging work in React and built full-stack features in Laravel/PHP early in my career."
+    },
+    "approach": {
+      "title": "How I approach work",
+      "p1": "I'm practical first. When facing a complex problem I look for the solution that solves it cleanly without over-engineering — three similar lines are usually better than a premature abstraction. I write automated tests because I've seen what happens when you don't.",
+      "p2": "I use AI-assisted tools (Cursor, GitHub Copilot, Gemini) daily. Not as a crutch, but as a force multiplier. I'm deliberate about where AI adds leverage and where it introduces noise.",
+      "p3": "I care about the broader context of what I'm building — the business problem, the user impact, the operational costs. Good engineering is engineering that serves the product."
+    },
+    "looking": {
+      "title": "What I'm looking for",
+      "p1": "I'm looking for a role at a product company — not outsourcing or staff augmentation. I want to work on a product I can learn inside out, contribute to long-term decisions, and see the impact of my work on real users.",
+      "p2": "Senior IC or tech lead roles interest me most. I like mentoring junior engineers and being involved in architectural decisions, but I want to stay hands-on with the code.",
+      "p3": "Remote-friendly is a plus. I'm open to occasional travel for team meetings."
+    },
+    "education": {
+      "title": "Education",
+      "text": "Bachelor's degree — School of Computing, Belgrade, Serbia (2014)"
+    },
+    "sidebar": {
+      "quickFacts": "Quick facts",
+      "location": "Belgrade, Serbia",
+      "years": "10+ years experience",
+      "skills": "Python · Vue.js · Nuxt.js"
+    }
+  },
+  "experience": {
+    "badge": "Experience",
+    "title": "Work history",
+    "subtitle": "10+ years across e-commerce, betting, and lead-generation platforms. Mostly backend, always full-stack capable.",
+    "education": {
+      "title": "Education",
+      "degree": "Bachelor of Computer Science",
+      "school": "School of Computing · Belgrade, Serbia · 2014"
+    },
+    "awards": {
+      "title": "Hackathon Awards"
+    },
+    "jobs": [
+      {
+        "title": "Senior Backend Developer",
+        "company": "BlueGrid",
+        "client": "Client: Recharge (getrecharge.com)",
+        "period": "2021 – 2026",
+        "bullets": [
+          "Developed an AI-powered internal tool using Flask and Google Gemini API for merchant sentiment analysis, including automated categorization and cross-source data integrity checks.",
+          "Engineered custom Python code parsers to automate a massive refactor — reducing a multi-month manual task to just one week.",
+          "Maintained the core codebase, implementing complex features and resolving hard-to-replicate production bugs to ensure platform stability.",
+          "Mentored junior developers and advocated for best practices in automated testing and code quality."
+        ],
+        "tags": ["Python", "Flask", "Google Gemini API", "SQLAlchemy", "PostgreSQL", "GCP", "Pytest"]
+      },
+      {
+        "title": "Senior Full-Stack Developer",
+        "company": "Factory World Wide",
+        "client": null,
+        "period": "2018 – 2021",
+        "bullets": [
+          "Developed high-performance betting games and software — 70% frontend (Vue.js, Nuxt.js) and 30% backend (Python).",
+          "Managed and mentored a growing engineering team, playing a key role in scaling the company from 10 to ~30 employees.",
+          "Led delivery of critical client projects that supported the company's rapid market expansion."
+        ],
+        "tags": ["Vue.js", "Nuxt.js", "Python", "JavaScript", "TypeScript"]
+      },
+      {
+        "title": "Senior Full-Stack Developer",
+        "company": "White City Soft",
+        "client": null,
+        "period": "Jun 2018 – Dec 2018",
+        "bullets": [
+          "Delivered full-stack features for a free travel-guide platform built for lead generation.",
+          "Quickly ramped up on an unfamiliar AngularJS/Laravel codebase to deliver assigned features on schedule."
+        ],
+        "tags": ["AngularJS", "Laravel", "PHP", "JavaScript"]
+      },
+      {
+        "title": "Full-Stack Developer",
+        "company": "MM Studio",
+        "client": null,
+        "period": "2016 – 2018",
+        "bullets": [
+          "Architected and deployed web applications using Laravel, jQuery, and Vue.js in a fast-paced agency environment.",
+          "Managed full-cycle development for multiple medium-sized projects, ensuring seamless integration between frontend and backend."
+        ],
+        "tags": ["Laravel", "PHP", "Vue.js", "jQuery", "MySQL"]
+      }
+    ],
+    "awardsList": [
+      { "place": "1st Place", "name": "Booking.com Hackathon (via HackerRank)" },
+      { "place": "1st Place", "name": "AISEC Hackathon · Faculty of Organizational Sciences, Belgrade" },
+      { "place": "3rd Place", "name": "National High School Algorithmic Competition (Republic Level)" }
+    ]
+  },
+  "projects": {
+    "badge": "Projects",
+    "title": "Case studies",
+    "subtitle": "Selected commercial projects — focused on the problem, the solution, and the measurable outcome. Details are kept high-level to respect NDAs.",
+    "labels": {
+      "problem": "Problem",
+      "solution": "Solution",
+      "result": "Result",
+      "stack": "Stack"
+    },
+    "items": [
+      {
+        "title": "AI-Powered Merchant Sentiment Analysis Tool",
+        "company": "BlueGrid / Recharge",
+        "year": "2023–2024",
+        "problem": "The merchant support team was manually sifting through thousands of merchant feedback signals across multiple data sources, with no unified view and no way to detect sentiment trends at scale.",
+        "solution": "Built an internal Flask application integrating the Google Gemini API to automatically classify and summarize merchant sentiment. Implemented cross-source data integrity checks and automated categorization pipelines, with a clean internal UI for the support team.",
+        "result": "Transformed a manual, error-prone review process into an automated workflow. The team gained actionable insights in hours instead of days, enabling faster and more targeted merchant interventions.",
+        "tags": ["Python", "Flask", "Google Gemini API", "SQLAlchemy", "PostgreSQL"]
+      },
+      {
+        "title": "Automated Codebase Refactor via Custom Python Parsers",
+        "company": "BlueGrid / Recharge",
+        "year": "2022",
+        "problem": "A large-scale structural refactor was estimated to take the entire engineering team several months of tedious, error-prone manual work with high risk of introducing regressions.",
+        "solution": "Built custom Python AST-based code parsers and transformation scripts that could automatically traverse, analyze, and rewrite the affected codebase patterns. Developed the tooling iteratively with test coverage to validate each transformation step.",
+        "result": "Reduced a multi-month manual effort to a single week. Zero regressions introduced. The approach became a template for subsequent refactor tasks on the same codebase.",
+        "tags": ["Python", "AST parsing", "Code automation", "Pytest"]
+      },
+      {
+        "title": "Real-Time Betting Game Platform",
+        "company": "Factory World Wide",
+        "year": "2018–2021",
+        "problem": "Multiple betting clients needed custom, high-performance game UIs with real-time state sync, complex animation requirements, and tight latency constraints under high concurrent user load.",
+        "solution": "Architected and delivered a series of betting game applications using Nuxt.js on the frontend for SSR performance and Vue.js for reactive real-time UI. Python backend services handled game logic, state management, and integrations with third-party providers.",
+        "result": "Delivered several game titles on schedule that became core revenue drivers for clients. The frontend architecture established a reusable pattern adopted across multiple subsequent projects.",
+        "tags": ["Vue.js", "Nuxt.js", "Python", "WebSockets", "TypeScript"]
+      }
+    ]
+  },
+  "blog": {
+    "badge": "Blog",
+    "title": "Writing",
+    "subtitle": "Thoughts on software engineering, Python, frontend architecture, and the craft of building reliable systems. Coming soon.",
+    "emptyTitle": "No posts yet",
+    "emptyText": "Articles are being drafted. Check back soon, or subscribe via email to be notified when the first post goes live.",
+    "emptyLink": "Get notified",
+    "notFound": {
+      "title": "Article not found",
+      "text": "This article doesn't exist yet or has been moved."
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Let's talk",
+    "subtitle": "If you're building something interesting and think I might be a fit, I'd love to hear about it. No recruiters please — direct contact only.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "{'you@company.com'}",
+      "company": "Company",
+      "companyPlaceholder": "Company name (optional)",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about the role or what you're working on...",
+      "submit": "Send message",
+      "submitted": "Message sent!"
+    },
+    "sidebar": {
+      "directContact": "Reach out directly",
+      "cv": "CV",
+      "responseTime": "Response time",
+      "responseText": "I typically respond within 1–2 business days."
+    }
+  }
+}
