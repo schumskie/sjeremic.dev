@@ -52,14 +52,12 @@ useSeoMeta({ title: computed(() => `${t('nav.about')} — Stefan Jeremic`) })
 
       <!-- Sidebar -->
       <div class="space-y-10">
-        <!-- Photo placeholder -->
-        <div class="w-full aspect-square rounded-2xl bg-slate-100 border-2 border-dashed border-slate-300 flex flex-col items-center justify-center text-slate-400">
-          <Icon name="lucide:user" size="40" />
-          <p class="text-xs mt-3 text-center px-4">
-            {{ t('common.photoPlaceholder') }}<br />
-            <span class="text-slate-300">{{ t('common.photoRecommended') }}</span>
-          </p>
-        </div>
+        <!-- Photo -->
+        <img
+          src="/me.jpg"
+          alt="Stefan Jeremic"
+          class="w-full aspect-square rounded-2xl object-cover object-top shadow-sm"
+        />
 
         <!-- Quick facts -->
         <div>

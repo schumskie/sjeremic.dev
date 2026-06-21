@@ -75,15 +75,13 @@ const skillGroups = [
         </NuxtLink>
       </div>
 
-      <!-- Photo placeholder -->
-      <div class="flex flex-col items-center gap-4">
-        <div class="w-64 h-64 rounded-2xl bg-slate-100 border-2 border-dashed border-slate-300 flex flex-col items-center justify-center text-slate-400">
-          <Icon name="lucide:user" size="48" />
-          <p class="text-xs mt-3 text-center px-4">
-            {{ t('common.photoPlaceholder') }}<br />
-            <span class="text-slate-300">{{ t('common.photoRecommended') }}</span>
-          </p>
-        </div>
+      <!-- Photo -->
+      <div class="flex justify-center md:justify-end">
+        <img
+          src="/me.jpg"
+          alt="Stefan Jeremic"
+          class="w-64 h-64 rounded-2xl object-cover object-top shadow-sm"
+        />
       </div>
     </div>
   </section>
