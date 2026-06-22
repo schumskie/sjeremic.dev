@@ -34,6 +34,23 @@
       "p2": "10+ years of hands-on experience across e-commerce, SaaS, and large-scale platforms. I work with Python on the backend and Vue.js on the frontend, and I use modern AI tooling to deliver faster without cutting corners.",
       "cta": "More about me"
     },
+    "services": {
+      "title": "What I can help with",
+      "items": [
+        {
+          "title": "Websites",
+          "description": "Business presentations, landing pages, portfolios — clean, fast, and built to represent you well."
+        },
+        {
+          "title": "Web Applications",
+          "description": "E-commerce platforms, SaaS products, dashboards — full-stack development from idea to production."
+        },
+        {
+          "title": "Custom Technical Solutions",
+          "description": "Have a specific problem that off-the-shelf software doesn't solve? I build tailored solutions — from automation to AI tools."
+        }
+      ]
+    },
     "skills": {
       "title": "Core technologies"
     },

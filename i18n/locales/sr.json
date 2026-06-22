@@ -34,6 +34,23 @@
       "p2": "10+ godina iskustva u e-commerce, SaaS i velikim platformama. Radim sa Pythonom na backendu i Vue.js-om na frontendu, i koristim moderne AI alate da isporučim brže bez kompromisa u kvalitetu.",
       "cta": "Više o meni"
     },
+    "services": {
+      "title": "Usluge koje nudim",
+      "items": [
+        {
+          "title": "Izrada i održavanje Web sajtova",
+          "description": "Poslovne prezentacije, landing pages, portfoliji — čisto, brzo i napravljeno da vas dobro predstavi."
+        },
+        {
+          "title": "Razvoj Web aplikacija",
+          "description": "E-commerce platforme, SaaS proizvodi, dashboardi — full-stack razvoj od ideje do produkcije."
+        },
+        {
+          "title": "Posebna tehnička rešenja",
+          "description": "Imate specifičan problem koji vaš trenutni softver ne rešava? Pravim rešenja po meri — od automatizacije do AI alata."
+        }
+      ]
+    },
     "skills": {
       "title": "Tehnologije"
     },

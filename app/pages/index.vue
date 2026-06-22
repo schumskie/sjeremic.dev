@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const { t } = useI18n()
+const { t, tm, rt } = useI18n()
+
+const serviceIcons = ['lucide:globe', 'lucide:layout-dashboard', 'lucide:code-2']
 const localePath = useLocalePath()
 
 const skillGroups = [
@@ -41,24 +43,22 @@ const skillGroups = [
     </div>
   </section>
 
-  <!-- Quick stats -->
+  <!-- Services -->
   <section class="border-y border-slate-100 bg-slate-50">
-    <div class="max-w-5xl mx-auto px-6 py-12 grid grid-cols-2 sm:grid-cols-4 gap-8">
-      <div>
-        <p class="text-3xl font-bold text-slate-900">10+</p>
-        <p class="text-sm text-slate-500 mt-1">{{ t('home.stats.years') }}</p>
-      </div>
-      <div>
-        <p class="text-3xl font-bold text-slate-900">3</p>
-        <p class="text-sm text-slate-500 mt-1">{{ t('home.stats.hackathons') }}</p>
-      </div>
-      <div>
-        <p class="text-3xl font-bold text-slate-900">4</p>
-        <p class="text-sm text-slate-500 mt-1">{{ t('home.stats.companies') }}</p>
-      </div>
-      <div>
-        <p class="text-3xl font-bold text-slate-900">Full</p>
-        <p class="text-sm text-slate-500 mt-1">{{ t('home.stats.stack') }}</p>
+    <div class="max-w-5xl mx-auto px-6 py-14">
+      <p class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-8">{{ t('home.services.title') }}</p>
+      <div class="grid sm:grid-cols-3 gap-8">
+        <div
+          v-for="(service, i) in (tm('home.services.items') as any[])"
+          :key="i"
+          class="flex flex-col gap-3"
+        >
+          <div class="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center shrink-0">
+            <Icon :name="serviceIcons[i]" size="16" class="text-blue-600" />
+          </div>
+          <h3 class="font-semibold text-slate-900">{{ rt(service.title) }}</h3>
+          <p class="text-sm text-slate-500 leading-relaxed">{{ rt(service.description) }}</p>
+        </div>
       </div>
     </div>
   </section>
