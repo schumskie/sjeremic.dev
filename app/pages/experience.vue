@@ -52,45 +52,11 @@ const awardBadge = (i: number) => i < 2
       <div class="absolute left-4 md:left-8 top-0 bottom-0 w-px bg-slate-200" />
 
       <div class="space-y-12">
-        <article
+        <JobCard
           v-for="(job, i) in jobs"
           :key="i"
-          class="relative pl-14 md:pl-20"
-        >
-          <div class="absolute left-2.5 md:left-6 top-1.5 w-3 h-3 rounded-full bg-blue-600 border-2 border-white shadow-sm" />
-
-          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-4">
-            <div>
-              <h2 class="text-lg font-semibold text-slate-900">{{ job.title }}</h2>
-              <p class="text-slate-500 text-sm">
-                {{ job.company }}
-                <span v-if="job.client" class="text-slate-400"> · <em>{{ job.client }}</em></span>
-              </p>
-            </div>
-            <span class="text-sm text-slate-400 font-mono shrink-0">{{ job.period }}</span>
-          </div>
-
-          <ul class="space-y-2">
-            <li
-              v-for="(bullet, j) in job.bullets"
-              :key="j"
-              class="flex items-start gap-3 text-sm text-slate-600 leading-relaxed"
-            >
-              <Icon name="lucide:chevron-right" size="14" class="text-slate-300 mt-1 shrink-0" />
-              {{ bullet }}
-            </li>
-          </ul>
-
-          <div class="flex flex-wrap gap-2 mt-4">
-            <span
-              v-for="tag in job.tags"
-              :key="tag"
-              class="px-2.5 py-0.5 bg-slate-50 border border-slate-200 rounded text-xs text-slate-500"
-            >
-              {{ tag }}
-            </span>
-          </div>
-        </article>
+          v-bind="job"
+        />
       </div>
     </div>
 
