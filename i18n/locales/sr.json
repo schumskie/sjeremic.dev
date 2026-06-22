@@ -20,8 +20,8 @@
     "rights": "Stefan Jeremic"
   },
   "home": {
-    "badge": "Dostupan za nove prilike",
-    "subtitle": "Senior Software Engineer sa 10+ godina iskustva u razvoju skalabilnih web platformi. Specijalizujem se za Python backend i Vue.js/Nuxt.js frontend — fokusiran na product kompanije gde inženjering direktno utiče na poslovne rezultate.",
+    "badge": "Web Development · Software Engineering",
+    "subtitle": "Pravim web sajtove i web aplikacije — od poslovnih prezentacija do složenih platformi. 10+ godina iskustva, pažnja prema detaljima i fokus na rad koji zaista donosi rezultate.",
     "stats": {
       "years": "Godina iskustva",
       "hackathons": "Hakaton nagrade",
@@ -29,41 +29,41 @@
       "stack": "Stack pokrivenost"
     },
     "about": {
-      "title": "O meni",
-      "p1": "Full-stack inženjer sa naglaskom na backend. Pišem produkcijski Python svakodnevno — Flask, FastAPI, SQLAlchemy — i isporučio sam značajan frontend rad u Vue.js i Nuxt.js na e-commerce, betting i lead-generation platformama.",
-      "p2": "Stalo mi je do kvaliteta koda, automatizovanog testiranja i praktičnog rešavanja problema. Alate poput Cursora i GitHub Copilota koristim ne kao prečicu, već kao multiplikator isporuke bez kompromisa u kvalitetu.",
-      "cta": "Pročitaj više o meni"
+      "title": "Šta radim",
+      "p1": "Dizajniram i pravim web sajtove, web aplikacije i softverske sisteme — za firme kojima je potrebna profesionalna online prezentacija i za product timove kojima treba pouzdan senior inženjer.",
+      "p2": "10+ godina iskustva u e-commerce, SaaS i velikim platformama. Radim sa Pythonom na backendu i Vue.js-om na frontendu, i koristim moderne AI alate da isporučim brže bez kompromisa u kvalitetu.",
+      "cta": "Više o meni"
     },
     "skills": {
       "title": "Tehnologije"
     },
     "cta": {
-      "title": "Tražite senior inženjera?",
-      "subtitle": "Otvoren sam za senior IC i lead pozicije u product kompanijama. Razgovarajmo o tome šta gradite.",
-      "button": "Započni razgovor"
+      "title": "Pravite nešto ambiciozno?",
+      "subtitle": "Najbolje radim u product kompanijama gde inženjering ima direktan uticaj. Ako to zvuči kao vaš tim — razgovarajmo.",
+      "button": "Razgovarajmo"
     }
   },
   "about": {
     "badge": "O meni",
-    "title": "Ko sam i kako radim",
-    "subtitle": "Full-stack inženjer sa fokusom na backend, iz Beograda. Više od decenije gradim i održavam produkcijske sisteme u različitim domenima.",
+    "title": "Inženjer iza rada",
+    "subtitle": "Backend-focused full-stack inženjer iz Beograda. Decenija produkcijskih sistema, iskustvo u više domena i jak bias ka isporuci stvari koje zaista rade.",
     "background": {
       "title": "Pozadina",
-      "p1": "Karijeru sam počeo u agencijskom okruženju gde je brza isporuka i adaptacija na različite tehnologije bila norma. Ta osnova me je naučila da se brzo snađem u nepoznatim codebases-ima — veština na kojoj sam gradio tokom cele karijere.",
-      "p2": "Tokom godina radio sam na e-commerce, sports betting i lead-generation platformama. Najduži angažman bio mi je kao Senior Backend Developer u BlueGridu, gde sam pet godina bio ugrađen u Recharge.com engineering tim — maintainovao sam kompleksan core codebase, gradio interni AI tooling i mentorisao junior developere.",
+      "p1": "Karijeru sam počeo u agencijskom okruženju gde je brza isporuka i adaptacija na različite tehnologije bila norma. Ta osnova me je naučila da se brzo snađem u nepoznatim codebases-ima — veština na kojoj sam se oslanjao tokom cele karijere.",
+      "p2": "Tokom godina radio sam na e-commerce, sports betting i lead-generation platformama. Najduži angažman bio mi je kao Senior Backend Developer u BlueGridu, gde sam pet godina bio ugrađen u Recharge.com engineering tim — maintainovao sam kompleksan core codebase, pravio interni AI tooling i mentorisao junior developere.",
       "p3": "Danas se primarno specijalizujem za Python backend (Flask, FastAPI, SQLAlchemy) sa značajnim frontend iskustvom u Vue.js i Nuxt.js. Takođe sam radio na React maintenance i debugging-u, kao i full-stack feature-ima u Laravel/PHP-u ranije u karijeri."
     },
     "approach": {
       "title": "Kako pristupam radu",
       "p1": "Praktičnost je na prvom mestu. Kada se suočim sa složenim problemom, tražim rešenje koje ga čisto rešava bez preteranog inženjerstva — tri slične linije su obično bolje od prerane apstrakcije. Pišem automatizovane testove jer sam video šta se dešava kada se ne pišu.",
       "p2": "Koristim AI-assisted alate (Cursor, GitHub Copilot, Gemini) svakodnevno. Ne kao štaku, već kao multiplikator. Promišljam gde AI dodaje vrednost, a gde unosi šum.",
-      "p3": "Zanima me širi kontekst onoga što gradim — poslovni problem, uticaj na korisnika, operativni troškovi. Dobro inženjerstvo je inženjerstvo koje služi proizvodu."
+      "p3": "Zanima me širi kontekst onoga što pravim — poslovni problem, uticaj na korisnika, operativni troškovi. Dobro inženjerstvo je inženjerstvo koje služi proizvodu."
     },
     "looking": {
-      "title": "Šta tražim",
-      "p1": "Tražim poziciju u product kompaniji — ne outsourcing ili staff augmentation. Želim da radim na proizvodu koji mogu da upoznam iznutra, da doprinosim dugoročnim odlukama i vidim uticaj svog rada na prave korisnike.",
-      "p2": "Najviše me interesuju senior IC ili tech lead uloge. Volim da mentorišem junior inženjere i da učestvujem u arhitektonskim odlukama, ali želim da ostanem hands-on sa kodom.",
-      "p3": "Remote-friendly je plus. Otvoren sam za povremena putovanja na timske susrete."
+      "title": "Gde dajem maximum",
+      "p1": "Product kompanije — gde engineering tim poseduje proizvod, a ne samo taskove. Napreduje mi se kada razumem poslovni kontekst onoga što pravim, kada doprinosim dugoročnim odlukama i kada moj rad ima merljiv uticaj na krajnje korisnike.",
+      "p2": "Senior IC ili tech lead scope mi odgovara. Volim arhitekturu, mentorstvo i da ostanem blizak kodu — sve odjednom.",
+      "p3": "Remote-first okruženje preferiram. Otvoren za povremeni on-site za pravi tim."
     },
     "education": {
       "title": "Obrazovanje",
@@ -96,7 +96,7 @@
         "period": "2021 – 2026",
         "bullets": [
           "Razvio AI-powered interni alat koristeći Flask i Google Gemini API za analizu sentimenta merchantova, uključujući automatizovanu kategorizaciju i provere integriteta podataka iz više izvora.",
-          "Izgradio custom Python parsere koda za automatizaciju masivnog refaktora — višemesečni ručni posao sveden na jednu nedelju.",
+          "Napravio custom Python parsere koda za automatizaciju masivnog refaktora — višemesečni ručni posao sveden na jednu nedelju.",
           "Održavao core codebase, implementirao kompleksne feature-e i rešavao teško-reproduktibilne production bug-ove radi stabilnosti platforme.",
           "Mentorisao junior developere i zagovarao best practices u automatizovanom testiranju i kvalitetu koda."
         ],
@@ -193,7 +193,7 @@
         "company": "BlueGrid / Recharge",
         "year": "2023–2024",
         "problem": "Tim za podršku merchantovima ručno je prolazio kroz hiljade povratnih signala iz više izvora podataka, bez jedinstvenog prikaza i bez mogućnosti detekcije trendova sentimenta na velikom obimu.",
-        "solution": "Izgradio sam interni Flask alat koji integriše Google Gemini API za automatsku klasifikaciju i sažimanje sentimenta merchantova. Implementirane su provere integriteta podataka iz više izvora i automatizovani pipeline-i kategorizacije, sa čistim internim UI-jem za tim podrške.",
+        "solution": "Napravio sam interni Flask alat koji integriše Google Gemini API za automatsku klasifikaciju i sažimanje sentimenta merchantova. Implementirane su provere integriteta podataka iz više izvora i automatizovani pipeline-i kategorizacije, sa čistim internim UI-jem za tim podrške.",
         "result": "Ručni, skloni greškama proces pretvoren u automatizovani workflow. Tim je dobijao korisne uvide za sate umesto dana, što je omogućilo brže i preciznije intervencije prema merchantovima.",
         "tags": [
           "Python",
@@ -208,7 +208,7 @@
         "company": "BlueGrid / Recharge",
         "year": "2022",
         "problem": "Procenjeno je da će veliki strukturni refaktor zahtevati nekoliko meseci mukotrpnog, ručnog rada celog engineering tima, uz visok rizik od uvođenja regresija.",
-        "solution": "Izgradio sam custom Python AST parsere i transformacione skripte koje su automatski prolazile, analizirale i prepisivale pogođene paterne u codebase-u. Tooling je razvijen iterativno uz test pokrivenost za validaciju svakog koraka transformacije.",
+        "solution": "Napravio sam custom Python AST parsere i transformacione skripte koje su automatski prolazile, analizirale i prepisivale pogođene paterne u codebase-u. Tooling je razvijen iterativno uz test pokrivenost za validaciju svakog koraka transformacije.",
         "result": "Višemesečni ručni napor sveden na jednu nedelju. Nula regresija. Pristup je postao template za naredne refaktor zadatke na istoj kodnoj bazi.",
         "tags": [
           "Python",
@@ -237,7 +237,7 @@
   "blog": {
     "badge": "Blog",
     "title": "Tekstovi",
-    "subtitle": "Razmišljanja o software engineeringu, Pythonu, frontend arhitekturi i zanatu izgradnje pouzdanih sistema. Uskoro.",
+    "subtitle": "Razmišljanja o software engineeringu, Pythonu, frontend arhitekturi i zanatu izrade pouzdanih sistema. Uskoro.",
     "emptyTitle": "Nema objava još",
     "emptyText": "Članci su u pripremi. Svratite uskoro, ili se prijavite putem emaila da budete obavešteni kada izađe prvi tekst.",
     "emptyLink": "Obavesti me",
@@ -249,7 +249,7 @@
   "contact": {
     "badge": "Kontakt",
     "title": "Razgovarajmo",
-    "subtitle": "Ako gradite nešto zanimljivo i mislite da bih mogao biti pravi fit, rado ću čuti više. Molim bez regrutera — samo direktan kontakt.",
+    "subtitle": "Recite mi šta pravite. Ako postoji fit, brzo ćemo znati. Samo direktan kontakt — bez regrutera.",
     "form": {
       "name": "Ime",
       "namePlaceholder": "Vaše ime",
@@ -258,7 +258,7 @@
       "company": "Kompanija",
       "companyPlaceholder": "Naziv kompanije (opciono)",
       "message": "Poruka",
-      "messagePlaceholder": "Recite mi o poziciji ili šta gradite...",
+      "messagePlaceholder": "Recite mi o poziciji ili šta pravite...",
       "submit": "Pošalji poruku",
       "submitted": "Poruka poslata!"
     },

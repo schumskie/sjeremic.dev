@@ -20,8 +20,8 @@
     "rights": "Stefan Jeremic"
   },
   "home": {
-    "badge": "Available for new opportunities",
-    "subtitle": "Senior Software Engineer with 10+ years of experience building scalable web platforms. Specializing in Python backends and Vue.js/Nuxt.js frontends — focused on product companies where engineering directly drives business outcomes.",
+    "badge": "Web Development · Software Engineering",
+    "subtitle": "I build websites and web applications — from business landing pages to complex platforms. 10+ years of experience, a strong eye for detail, and a focus on work that actually delivers results.",
     "stats": {
       "years": "Years of experience",
       "hackathons": "Hackathon awards",
@@ -29,24 +29,24 @@
       "stack": "Stack coverage"
     },
     "about": {
-      "title": "About me",
-      "p1": "I'm a full-stack engineer who leans heavily on the backend side. I write production Python daily — Flask, FastAPI, SQLAlchemy — and I've shipped significant frontend work in Vue.js and Nuxt.js across e-commerce, betting, and lead-generation platforms.",
-      "p2": "I care about code quality, automated testing, and practical problem-solving. I use AI-assisted tools like Cursor and GitHub Copilot not as shortcuts but as force multipliers for delivery without compromising quality.",
-      "cta": "Read more about me"
+      "title": "What I do",
+      "p1": "I design and build websites, web applications, and software systems — for businesses that need a professional online presence and for product teams that need a reliable senior engineer.",
+      "p2": "10+ years of hands-on experience across e-commerce, SaaS, and large-scale platforms. I work with Python on the backend and Vue.js on the frontend, and I use modern AI tooling to deliver faster without cutting corners.",
+      "cta": "More about me"
     },
     "skills": {
       "title": "Core technologies"
     },
     "cta": {
-      "title": "Looking for a senior engineer?",
-      "subtitle": "I'm open to senior individual contributor and lead roles at product companies. Let's talk about what you're building.",
-      "button": "Start a conversation"
+      "title": "Building something ambitious?",
+      "subtitle": "I work best at product companies where engineering has a direct line to impact. If that sounds like your team, let's talk.",
+      "button": "Let's talk"
     }
   },
   "about": {
     "badge": "About",
-    "title": "Who I am and how I work",
-    "subtitle": "Full-stack engineer with a backend focus, based in Belgrade, Serbia. I've spent over a decade building and maintaining production systems across diverse domains.",
+    "title": "The engineer behind the work",
+    "subtitle": "Backend-focused full-stack engineer based in Belgrade. A decade of production systems, cross-domain experience, and a strong bias toward shipping things that actually work.",
     "background": {
       "title": "Background",
       "p1": "I started my career in a fast-moving agency environment where shipping quickly and adapting to different stacks was the default. That foundation taught me to ramp up fast on unfamiliar codebases — a skill I've leaned on throughout my career.",
@@ -60,10 +60,10 @@
       "p3": "I care about the broader context of what I'm building — the business problem, the user impact, the operational costs. Good engineering is engineering that serves the product."
     },
     "looking": {
-      "title": "What I'm looking for",
-      "p1": "I'm looking for a role at a product company — not outsourcing or staff augmentation. I want to work on a product I can learn inside out, contribute to long-term decisions, and see the impact of my work on real users.",
-      "p2": "Senior IC or tech lead roles interest me most. I like mentoring junior engineers and being involved in architectural decisions, but I want to stay hands-on with the code.",
-      "p3": "Remote-friendly is a plus. I'm open to occasional travel for team meetings."
+      "title": "Where I work best",
+      "p1": "Product companies — where the engineering team owns the product, not just the tickets. I thrive when I can understand the business context behind what I'm building, contribute to long-term decisions, and see my work reflected in real outcomes for real users.",
+      "p2": "Senior IC or tech lead scope suits me well. I like being involved in architecture, mentoring the people around me, and staying close to the code — all at once.",
+      "p3": "Remote-first environment preferred. Open to occasional on-site for the right team."
     },
     "education": {
       "title": "Education",
@@ -198,7 +198,7 @@
   "contact": {
     "badge": "Contact",
     "title": "Let's talk",
-    "subtitle": "If you're building something interesting and think I might be a fit, I'd love to hear about it. No recruiters please — direct contact only.",
+    "subtitle": "Tell me what you're building. If there's a fit, we'll know quickly. Direct contact only — no recruiters.",
     "form": {
       "name": "Name",
       "namePlaceholder": "Your name",
