@@ -5,6 +5,8 @@ useSeoMeta({ title: computed(() => `${t('nav.contact')} — Stefan Jeremic`) })
 const form = reactive({ name: '', email: '', company: '', message: '' })
 const submitted = ref(false)
 
+const { email, openMail } = useEmail()
+
 function handleSubmit() {
   // TODO: wire up to form backend (Formspree, Resend, etc.)
   submitted.value = true
@@ -92,12 +94,12 @@ function handleSubmit() {
           <p class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-4">{{ t('contact.sidebar.directContact') }}</p>
           <ul class="space-y-4">
             <li>
-              <a href="mailto:sjeremic91@gmail.com" class="flex items-center gap-3 text-sm text-slate-600 hover:text-slate-900 transition-colors group">
+              <button type="button" class="flex items-center gap-3 text-sm text-slate-600 hover:text-slate-900 transition-colors group w-full text-left" @click="openMail">
                 <span class="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
                   <Icon name="lucide:mail" size="16" class="text-slate-400 group-hover:text-blue-500 transition-colors" />
                 </span>
-                sjeremic91@gmail.com
-              </a>
+                <span>{{ email || '···' }}</span>
+              </button>
             </li>
             <li>
               <a href="https://linkedin.com/in/stefan-jeremic" target="_blank" rel="noopener" class="flex items-center gap-3 text-sm text-slate-600 hover:text-slate-900 transition-colors group">

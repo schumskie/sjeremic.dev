@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const { openMail } = useEmail()
 </script>
 
 <template>
@@ -9,7 +10,7 @@ const { t } = useI18n()
       <div class="flex items-center gap-6">
         <a href="https://linkedin.com/in/stefan-jeremic" target="_blank" rel="noopener" class="hover:text-slate-700 transition-colors">LinkedIn</a>
         <a href="https://github.com/schumskie" target="_blank" rel="noopener" class="hover:text-slate-700 transition-colors">GitHub</a>
-        <a href="mailto:sjeremic91@gmail.com" class="hover:text-slate-700 transition-colors">Email</a>
+        <button type="button" class="hover:text-slate-700 transition-colors" @click="openMail">Email</button>
       </div>
     </div>
   </footer>

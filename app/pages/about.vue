@@ -2,6 +2,7 @@
 const { t } = useI18n()
 const localePath = useLocalePath()
 useSeoMeta({ title: computed(() => `${t('nav.about')} — Stefan Jeremic`) })
+const { email, openMail } = useEmail()
 </script>
 
 <template>
@@ -77,7 +78,7 @@ useSeoMeta({ title: computed(() => `${t('nav.about')} — Stefan Jeremic`) })
             </li>
             <li class="flex items-start gap-3 text-sm">
               <Icon name="lucide:mail" size="16" class="text-slate-400 mt-0.5 shrink-0" />
-              <a href="mailto:sjeremic91@gmail.com" class="text-blue-600 hover:underline">sjeremic91@gmail.com</a>
+              <button type="button" class="text-blue-600 hover:underline text-left" @click="openMail">{{ email || '···' }}</button>
             </li>
           </ul>
         </div>
