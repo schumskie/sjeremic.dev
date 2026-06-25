@@ -8,7 +8,7 @@ const { t } = useI18n()
       <span>© {{ new Date().getFullYear() }} {{ t('footer.rights') }}</span>
       <div class="flex items-center gap-6">
         <a href="https://linkedin.com/in/stefan-jeremic" target="_blank" rel="noopener" class="hover:text-slate-700 transition-colors">LinkedIn</a>
-        <a href="https://github.com/stefan-jeremic" target="_blank" rel="noopener" class="hover:text-slate-700 transition-colors">GitHub</a>
+        <a href="https://github.com/schumskie" target="_blank" rel="noopener" class="hover:text-slate-700 transition-colors">GitHub</a>
         <a href="mailto:sjeremic91@gmail.com" class="hover:text-slate-700 transition-colors">Email</a>
       </div>
     </div>

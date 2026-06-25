@@ -108,7 +108,7 @@ function handleSubmit() {
               </a>
             </li>
             <li>
-              <a href="https://github.com/stefan-jeremic" target="_blank" rel="noopener" class="flex items-center gap-3 text-sm text-slate-600 hover:text-slate-900 transition-colors group">
+              <a href="https://github.com/schumskie" target="_blank" rel="noopener" class="flex items-center gap-3 text-sm text-slate-600 hover:text-slate-900 transition-colors group">
                 <span class="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
                   <Icon name="lucide:github" size="16" class="text-slate-400 group-hover:text-blue-500 transition-colors" />
                 </span>
