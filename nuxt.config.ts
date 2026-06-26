@@ -2,11 +2,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  runtimeConfig: {
-    public: {
-      comingSoon: process.env.COMING_SOON === 'true'
-    }
-  },
   devtools: { enabled: true },
   modules: ['@nuxt/content', '@nuxt/icon', '@nuxtjs/i18n'],
   css: ['~/assets/css/main.css'],
